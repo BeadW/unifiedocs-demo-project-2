@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: WARP_STAGING
+    schema: STAGING_RAW
+    tables:
+      - name: tpch_sf1_customer
+      - name: tpch_sf1_orders
